@@ -1,0 +1,8 @@
+.home-section-text {
+    width: 50ch;
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 0 2rem;
+    box-sizing: border-box;
+    text-align: center;
+}
