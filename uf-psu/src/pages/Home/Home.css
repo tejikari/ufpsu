@@ -1,8 +1,17 @@
-.home-section-text {
+/* .home-section-text {
     width: 50ch;
     max-width: 95%;
     margin: 0 auto;
     padding: 0 2rem;
     box-sizing: border-box;
     text-align: center;
+} */
+
+.header {
+    color: #FFFFFF;
+}
+
+.background {
+    background-image: url('../../assets/home_page_pic.jpg');
+    /* background-color: #635F5F; */
 }
