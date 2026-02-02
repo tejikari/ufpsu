@@ -1,5 +1,5 @@
 import React from "react"
-import psuLogo from '../assets/psu_logo.png'
+import psuLogo from "../assets/psu_logo.png"
 import './NavBar.css'
 import { Link } from "react-router-dom"
 
