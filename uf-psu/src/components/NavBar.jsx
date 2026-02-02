@@ -4,13 +4,13 @@ import './NavBar.css'
 import { Link } from "react-router-dom"
 
 export const NavBar = () => {
-    return <nav>
+    return <nav class = "topnav">
         <ul>
-            <li><Link to="/contact">Contact</Link></li>
-            <li><Link to="/events">Events</Link></li>
+            <li class="linkitem"><Link to="/contact">Contact</Link></li>
+            <li class="linkitem"><Link to="/events">Events</Link></li>
             <li><Link to="/"><img id="logo" src={psuLogo} alt="PSU logo"/></Link></li>
-            <li><Link to="/board">Board</Link></li>
-            <li><Link to="/statements">Statements</Link></li>
+            <li class="linkitem"><Link to="/board">Board</Link></li>
+            <li class="linkitem"><Link to="/statements">Statements</Link></li>
         </ul>
     </nav>
 }

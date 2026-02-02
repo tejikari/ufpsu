@@ -1,4 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Suez+One&display=swap');
 #logo {
     width:60px;
     height: auto;
+}
+.topnav{
+    text-align: center;
+}
+.topnav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #755D7A;
+    font-family: 'Suez One', serif;
+    font-size: 20px;
+}
+
+.linkitem{
+    margin-top: 10px;
+}
+.topnav li{
+    float: left;
+}
+
+.topnav li a{
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
 }
