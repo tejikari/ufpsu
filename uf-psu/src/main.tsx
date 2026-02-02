@@ -6,6 +6,6 @@ import App from './App.tsx'
 // use ! to override error and say that root does exist
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <App />
+      <App />
   </StrictMode>,
 )
