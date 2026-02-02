@@ -12,6 +12,11 @@
 }
 
 .background {
+    height: 200vh;
+    width: 100vw;
     background-image: url('../../assets/home_page_pic.jpg');
+    background-size: cover;
+    background-position: center;
+    /* background-repeat: no-repeat; */
     /* background-color: #635F5F; */
 }
