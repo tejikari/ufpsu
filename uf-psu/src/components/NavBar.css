@@ -8,6 +8,8 @@
     background: #755D7A;
     font-family: 'Suez One', serif;
     font-size: 20px;
+    margin-top: 0px;
+    padding-top: 0px;
 }
 
 .topnav ul {
@@ -15,7 +17,7 @@
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center;          /* <‐ centre the group of items */
+    justify-content: center;
     align-items: center;
     width: 100%;
 }
