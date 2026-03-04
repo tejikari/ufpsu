@@ -3,7 +3,6 @@ import Contact from './pages/Contact/Contact'
 import Events from './pages/Events/Events'
 import Board from './pages/Board/Board'
 import Statements from './pages/Statements/Statements'
-import { NavBar } from './components/NavBar'
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './App.css'
@@ -21,6 +20,8 @@ function App() {
         <Route path="/statements" element={<Statements />} />
       </Routes>
     </BrowserRouter>
+  )
 
+}
 
 export default App
