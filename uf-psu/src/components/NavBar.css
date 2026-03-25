@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Red+Rose&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@300..700&display=swap');
+
 #logo {
     width:60px;
     height: auto;
@@ -7,7 +9,7 @@
 .topnav {
     position: fixed;
     width: 100%;
-    background: #1E1E1E;
+    background: #613C6AB3;
     font-family: 'Red Rose', serif;
     font-size: 20px;
     top: 0px;
