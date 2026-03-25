@@ -2,9 +2,12 @@ import './Contact.css'
 
 const Contact = () => {
 	return (
-		<h1 className='contact-section-text'>
-			Contact
-		</h1>
+		<div className="contact">
+			<h1>Contact Us</h1>
+			<p>ufpsu@gmail.com</p>
+			<p>@ufpsu</p>
+			<p>Join Our Discord</p>
+		</div>
 	)
 }
 
