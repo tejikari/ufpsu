@@ -3,12 +3,14 @@
     width:60px;
     height: auto;
 }
+
 .topnav {
+    position: fixed;
     width: 100%;
-    background: #755D7A;
+    background: #613C6AB3;
     font-family: 'Suez One', serif;
     font-size: 20px;
-    margin-top: 0px;
+    top: 0px;
     padding-top: 0px;
 }
 
