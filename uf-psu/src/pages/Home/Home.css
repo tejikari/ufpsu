@@ -9,11 +9,16 @@
 
 .header {
     color: #FFFFFF;
+    font-family: 'Red Rose', serif;
+    text-align: center;
+    position: relative;
+    top: 300px;
 }
 
 .background {
-    height: 200vh;
-    width: 100vw;
+    height: 100vh;
+    width: 100%;
+    max-width: 100%;
     background-image: url('../../assets/home_page_pic.jpg');
     background-size: cover;
     background-position: center;
