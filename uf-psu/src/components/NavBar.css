@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Suez+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose&display=swap');
 #logo {
     width:60px;
     height: auto;
@@ -8,7 +8,7 @@
     position: fixed;
     width: 100%;
     background: #1E1E1E;
-    font-family: 'Suez One', serif;
+    font-family: 'Red Rose', serif;
     font-size: 20px;
     top: 0px;
     padding-top: 0px;
@@ -32,5 +32,7 @@
     display: block;
     color: white;
     padding: 14px 16px;
+    font-weight: bold;
+    font-size: 30px;
     text-decoration: none;
 }
