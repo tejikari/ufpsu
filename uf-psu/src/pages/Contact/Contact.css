@@ -1,13 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Rose&display=swap');
 body {
-    background-color: #ffffff;
+    background-color: #1e1e1e;
 }
 .contact-section-text {
-    color: #000000;
+    color: #FFFFFF;
+    font-family: 'Red Rose', serif;
+    font-size: 40px;
+}
+p, a {
+    color: #FFFFFF;
     font-family: 'Red Rose', serif;
 }
-p {
-    color: #000000;
+h1 {
+    color: #FFFFFF;
     font-family: 'Red Rose', serif;
 }
 .contact {
@@ -20,4 +25,9 @@ p {
     text-align: center;     
     padding-top: 0px; 
     box-sizing: border-box;
+}
+.flex-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
