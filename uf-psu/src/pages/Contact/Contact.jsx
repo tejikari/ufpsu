@@ -14,7 +14,7 @@ const Contact = () => {
 				<div>
 					<p>Join Our Discord</p>
 				</div>
-				<div>
+			</div>
 			<div>
 				<h1>Support PSU!</h1>
 				<p>Venmo: @venmo</p>
