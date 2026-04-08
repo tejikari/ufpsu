@@ -3,21 +3,35 @@ import './Contact.css'
 const Contact = () => {
 	return (
 		<div className="contact">
-			<div>
-				<h1>Contact Us</h1>
-				<div>
-					<p>ufpsu@gmail.com</p>
+			<h1>Contact Us</h1>
+			<div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '20px' }}>
+				<div class="flex-container">
+					{/* https://tabler.io/icons/icon/mail for email icon */}
+					<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-mail">
+						<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+						<path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10" />
+						<path d="M3 7l9 6l9 -6" />
+					</svg>
+					<a href="mailto:ufpsu@gmail.com">ufpsu@gmail.com</a>
 				</div>
-				<div>
-					<p>Check out our instagram @ufpsu</p>
+				<div class="flex-container">
+					{/* https://tabler.io/icons for instagram icon */}
+					<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-brand-instagram">
+						<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+						<path d="M4 8a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4l0 -8" />
+						<path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+						<path d="M16.5 7.5v.01" />
+					</svg>
+					<a href="https://www.instagram.com/ufpsu/">Follow Us on Instagram</a>
 				</div>
-				<div>
-					<p>Join Our Discord</p>
+				<div class="flex-container">
+					{/* https://tabler.io/icons for discord icon */}
+					<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-brand-discord"><path stroke="none" d="M0 0h24v24H0z" fill="none" />
+						<path d="M8 12a1 1 0 1 0 2 0a1 1 0 0 0 -2 0" /><path d="M14 12a1 1 0 1 0 2 0a1 1 0 0 0 -2 0" />
+						<path d="M15.5 17c0 1 1.5 3 2 3c1.5 0 2.833 -1.667 3.5 -3c.667 -1.667 .5 -5.833 -1.5 -11.5c-1.457 -1.015 -3 -1.34 -4.5 -1.5l-.972 1.923a11.913 11.913 0 0 0 -4.053 0l-.975 -1.923c-1.5 .16 -3.043 .485 -4.5 1.5c-2 5.667 -2.167 9.833 -1.5 11.5c.667 1.333 2 3 3.5 3c.5 0 2 -2 2 -3" />
+						<path d="M7 16.5c3.5 1 6.5 1 10 0" /></svg>	
+					<a href="https://discord.com/invite/3DxQyBtUNc">Join Our Discord</a>
 				</div>
-			</div>
-			<div>
-				<h1>Support PSU!</h1>
-				<p>Venmo: @venmo</p>
 			</div>
 		</div>
 	)
