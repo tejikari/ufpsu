@@ -28,7 +28,11 @@ h1 {
     padding-top: 0px; 
     box-sizing: border-box;
 }
-.flex-container {
+.contact a:hover{
+    color: #ab28bc;
+    cursor: pointer;
+}
+.contact .flex-container {
   display: flex;
   align-items: center;
   gap: 10px;

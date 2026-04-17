@@ -30,9 +30,13 @@
     margin-top: 10px;
 }
 
+.topnav .linkitem a:hover{
+    color: #ab28bc;
+    cursor: pointer;
+}
+
 .topnav li a{
     display: block;
-    color: white;
     padding: 14px 16px;
     font-weight: bold;
     font-size: 30px;

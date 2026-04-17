@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose&display=swap');
+body {
+    background-color: #1e1e1e;
+}
+.events-section-text {
+    color: #FFFFFF;
+    font-family: 'Red Rose', serif;
+    font-size: 40px;
+}
+p, a {
+    color: #FFFFFF;
+    font-family: 'Red Rose', serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #FFFFFF;
+    font-family: 'Red Rose', serif;
+}
+.events {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    justify-content: center; 
+    width: 100vw;           
+    min-height: 100vh;      
+    text-align: center;     
+    padding-top: 100px; 
+    box-sizing: border-box;
+    padding-bottom: 80px;
+}
+.events .flex-container {
+  display: flex;
+  max-width: 900px;
+  min-height: 250px;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  overflow-x: auto;
+}
+.events .item {
+    flex: 0 0 auto;
+}
