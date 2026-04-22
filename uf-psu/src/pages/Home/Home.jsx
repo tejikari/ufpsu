@@ -37,10 +37,69 @@ function Home() {
                     </div>
 
                     <div className='about-us-boxes'>
-                        <div className='about-us-box box-large'></div>
-                        <div className='about-us-box box-small'></div>
-                        <div className='about-us-box box-medium'></div>
-                        <div className='about-us-box box-tall'></div>
+                        <div className='about-us-box box-large pic-one'></div>
+                        <div className='about-us-box box-small pic-two'></div>
+                        <div className='about-us-box box-medium pic-three'></div>
+                        <div className='about-us-box box-tall pic-four'></div>
+                    </div>
+                </div>
+            </div>
+
+            <div className='new-section'>
+                <header className='about-us-header'>
+                    <h2> Queer Cultivation Program (QCP) </h2>
+                </header>
+
+                <div className='new-section-content'>
+                    <div className='new-section-boxes'>
+                        <div className='about-us-box box-large flip-card new-photo-1'>
+                            <div className='flip-card-inner'>
+                                <div className='flip-card-face flip-card-front pic-one'></div>
+                                <div className='flip-card-face flip-card-back'>
+                                    <p>Caption One</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='about-us-box box-small flip-card new-photo-2'>
+                            <div className='flip-card-inner'>
+                                <div className='flip-card-face flip-card-front pic-two'></div>
+                                <div className='flip-card-face flip-card-back'>
+                                    <p>Caption Two</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='about-us-box box-medium flip-card new-photo-3'>
+                            <div className='flip-card-inner'>
+                                <div className='flip-card-face flip-card-front pic-three'></div>
+                                <div className='flip-card-face flip-card-back'>
+                                    <p>Caption Three</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='about-us-box box-tall flip-card new-photo-4'>
+                            <div className='flip-card-inner'>
+                                <div className='flip-card-face flip-card-front pic-four'></div>
+                                <div className='flip-card-face flip-card-back'>
+                                    <p>Caption Four</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='about-us-box box-large flip-card new-photo-5'>
+                            <div className='flip-card-inner'>
+                                <div className='flip-card-face flip-card-front pic-five'></div>
+                                <div className='flip-card-face flip-card-back'>
+                                    <p>Caption Five</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='about-us-box box-large flip-card new-photo-6'>
+                            <div className='flip-card-inner'>
+                                <div className='flip-card-face flip-card-front pic-six'></div>
+                                <div className='flip-card-face flip-card-back'>
+                                    <p>Caption Six</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
