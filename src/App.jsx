@@ -10,7 +10,7 @@ import { NavBar } from './components/NavBar'
 
 function App() {
   return (
-    <BrowserRouter basename="/ufpsu">
+    <BrowserRouter>
       <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
